@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+           
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="" placeholder="Insira seu Nome"> <br>
+           
+            <label for="senha">Insira sua senha</label>
+            <input type="password" name="senha" id="" placeholder="Digite sua senha"><br>
+           
+            <label for="email">Insira seu E-mail</label>
+            <input type="email" name="email" id="" placeholder="Insira seu E-mail"><br>
+            
+            <label for="idade">Qual a sua idade?</label>
+            <input type="number" name="idade" id="" min="18" max="100" placeholder="Digite sua idade" class="small-input"> <br>
+            
+            <label for="website">Website:</label>
+            <input type="url" name="website" id="website" placeholder="https://"> <br>
+           
+            <label for="termos">Aceito os termos:</label>
+            <input type="checkbox" name="termos" id=""> <br>
+            
+            <label for="genero">Gênero:</label>
+            <input type="radio" name="genero" id="masculino" class="small-input" value="masculino">
+            <label for="masculino" class="inline-label">Masculino</label>
+            <input type="radio" name="genero" id="feminino" class="small-input" value="feminino">
+            <label for="feminino" class="inline-label">Feminino</label>
+            <input type="radio" name="genero" id="outro" class="small-input" value="outro">
+            <label for="masculino" class="inline-label">Outro</label> <br>
+            
+            <label for="data">Data de Nascimento</label>
+            <input type="date" name="data" id=""> <br>
+            
+            <label for="cor-favorita">Sua cor favorita</label>
+            <input type="color" name="cor-favorita" id=""> <br>
+            
+            <label for="sastifacao">Sastifação (0 a 10)</label>
+            <input type="range" name="sastifacao" id=""> <br>
+
+            <label for="comentarios">Comentários:</label> <br>
+            <textarea name="comentarios" id="" rows="4" placeholder="Escreva seu comentário"></textarea> <br>
+
+            <label for="pais">País</label>
+            <select name="pais" id="">
+                <option value="bra">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="jap">Japão</option>
+                <option value="chi">China</option>
+                <option value="rus">Russia</option>
+
+                
+            </select>
+        <br>
+        <label for="arquivo">Envie seu arquivo</label>
+        <input type="file" name="arquivo" id="">
+        <br>
+        <br>
+            <button type="submit" id="center">Enviar</button>
+        
+
+
+        </form>
+    </main>
+
+    <footer>
+        <h3>Meu Github:</h3>
+        <nav id="navbar">
+            <ul>
+                <li><a href="https://github.com/ianiak/">Github</a></li>
+                
+            </ul>
+        </nav>
+    </footer>
+
+    
+</body>
+</html>
